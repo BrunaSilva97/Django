@@ -1,0 +1,32 @@
+python --version
+
+python -m venv venv
+
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+
+venv/Scripts/activate
+
+pip install -r requirements.txt
+
+ls #ver quanto requirements tem
+
+django-admin startproject aula_poo .
+
+python manage.py startapp clientes   
+
+python manage.py runserver
+
+python manage.py createsuperuser     
+[usuario]
+[email]
+[senha]
+
+python manage.py makemigrations
+
+python manage.py migrate
+
+
+
+
+
+usuario = nome completo
